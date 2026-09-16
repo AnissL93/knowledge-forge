@@ -1,0 +1,7 @@
+```mermaid-next
+packet
+    0-15: "Source Port"
+    16-31: "Destination Port"
+    32-47: "Length"
+    48-63: "Checksum"
+```

@@ -1,0 +1,13 @@
+{
+  "retroma-obsidian-theme@@workspace-font-selection": "system-ui",
+  "retroma-obsidian-theme@@workspace-color-scheme": "rtm-cs-monochromatic-colors",
+  "retroma-obsidian-theme@@rtm-ss-pdf-simple-view": true,
+  "retroma-obsidian-theme@@nav-btn-style-selection": "default",
+  "retroma-obsidian-theme@@rtm-markdown-editor-font": "Space Grotesk",
+  "retroma-obsidian-theme@@rtm-ss-zen-mode": false,
+  "retroma-obsidian-theme@@rtm-ss-zen-mode-pin-titlebar": false,
+  "retroma-obsidian-theme@@rtm-code-font": "Cascadia Code",
+  "retroma-obsidian-theme@@rtm-blockquote-font": "inherit",
+  "retroma-obsidian-theme@@rtm-heading-font": "Special Elite",
+  "retroma-obsidian-theme@@rtm-tab-active-font": "inherit"
+}
