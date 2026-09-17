@@ -1,4 +1,4 @@
-# Knowledge Forge
+# Knowledge Forge (WIP)
 
 An Obsidian vault for research + startup work. It is not a note manager; it is a pipeline:
 
