@@ -18,6 +18,6 @@ What is missing in existing work?
 
 ## Supporting Notes
 
-<!-- Link existing notes with [[Concept]], [[Paper Note]], or [[IDEA - Name]]. -->
+<!-- Link existing notes with [[Concept Name]], [[Paper Note Name]] or [[IDEA - Idea Name]]. -->
 
 ## Draft

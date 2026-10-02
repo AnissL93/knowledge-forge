@@ -3,7 +3,7 @@
 This folder holds *reusable business knowledge*, not all startup work.
 
 ## Company
-One note per company:
+Company notes live in `04_Entities/Company` (one note per company):
 - competitors
 - potential partners
 - customer companies
@@ -43,6 +43,6 @@ The reusable knowledge a project produces settles into `10_Business`.
 
 For example:
 
-- `10_Business/Company/Competitor A.md`
+- `04_Entities/Company/Competitor A.md`
 - `10_Business/Market/AI design tools.md`
 - `10_Business/Customers/Design agency ICP.md`

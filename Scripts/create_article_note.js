@@ -1,7 +1,7 @@
 module.exports = async (params) => {
     const { app, quickAddApi, obsidian } = params;
 
-    const CLIPPING_FOLDER = "09_Material/Clippings";
+    const CLIPPING_FOLDER = "09_Resources/Clippings";
     const ARTICLE_FOLDER = "02_Sources/Articles";
     const TEMPLATE_PATH = "Templates/Article.md";
 

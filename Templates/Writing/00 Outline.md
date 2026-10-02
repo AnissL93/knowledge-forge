@@ -2,9 +2,9 @@
 
 Paper title:
 
-Project note:
+Project page:
 
-Target venue:
+Target conference / journal:
 
 ## Research Question
 

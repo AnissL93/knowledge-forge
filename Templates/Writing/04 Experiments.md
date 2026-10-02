@@ -8,12 +8,12 @@
 
 ## Experimental Setup
 
-Model, parameters, random seed, and code version:
+Model, parameters, random seed and code version:
 
 ## Metrics
 
 ## Experiment Records
 
-<!-- Link reproducible experiment records with [[EXP001 - Name]]. -->
+<!-- Link reproducible experiment records with [[EXP001 - Experiment Name]]. -->
 
 ## Draft

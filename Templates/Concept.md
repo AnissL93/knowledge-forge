@@ -2,11 +2,11 @@
 
 ## Definition
 
-This concept refers to:
+This concept means:
 
 ## My Understanding
 
-Explain in my own words:
+Explain it in my own words:
 
 ## How It Is Measured
 
@@ -22,11 +22,11 @@ Open problems:
 
 ## Key Papers
 
-<!-- Link key papers with [[Paper Note]]. -->
+<!-- Link key papers with [[Paper Note Name]]. -->
 
 ## Related Concepts
 
-<!-- Link related concepts with [[Concept]]. -->
+<!-- Link related concepts with [[Concept Name]]. -->
 
 ## My Research
 

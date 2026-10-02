@@ -17,7 +17,7 @@ What does this experiment try to answer?
 
 ## Hypothesis
 
-If X, then I expect Y.
+If xxx, then I expect xxx.
 
 ## Setup
 
@@ -41,7 +41,7 @@ Code commit:
 
 ## Results
 
-<!-- Replace with the metrics actually used in this experiment. -->
+<!-- Replace the metrics with the ones this experiment actually uses. -->
 
 | Metric | Result |
 | --- | --- |
@@ -55,18 +55,18 @@ Observed:
 
 ## Interpretation
 
-Why might this result occur?
+Why might this result happen?
 
 ## Problems
 
-What went wrong with the experiment?
+What is wrong with this experiment?
 
 ## Conclusion
 
-What can be concluded so far?
+What can I conclude so far?
 
 ## Next Experiment
 
-<!-- Link the next experiment with [[EXP002 - Name]]. -->
+<!-- Link the next experiment with [[EXP002 - Experiment Name]]. -->
 
 #experiment

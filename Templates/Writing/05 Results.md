@@ -2,16 +2,16 @@
 
 ## Main Findings
 
-Which experimental results support each conclusion?
+Which experimental results back each finding?
 
 ## Tables and Figures
 
-Figures / tables and captions:
+Tables, figures and their captions:
 
 ## Additional Analysis
 
 ## Supporting Experiments
 
-<!-- Link the raw experiment records with [[EXP001 - Name]]. -->
+<!-- Link the raw experiment record with [[EXP001 - Experiment Name]]. -->
 
 ## Draft

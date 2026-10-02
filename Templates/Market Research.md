@@ -10,7 +10,7 @@ updated: {{date:YYYY-MM-DD}}
 
 ## Question
 
-What question does this research answer?
+What question should this research answer?
 
 ## Executive summary
 

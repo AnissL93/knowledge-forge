@@ -21,13 +21,13 @@ finished:
 
 Why am I reading this book?
 
-Which question, project, or interest is it related to?
+Which problem, project or interest does it relate to?
 
 -
 
 ## Core Thesis
 
-Summarize the author's central claim in your own words:
+Summarize the author's core argument in my own words:
 
 >
 
@@ -53,20 +53,20 @@ Summarize the author's central claim in your own words:
 
 ## Findings
 
-Conclusions from this book worth keeping long-term:
+Conclusions from this book worth keeping long term:
 
 -
 -
 
 ## My Thoughts
 
-My understanding, associations, and criticism:
+My own understanding, associations and criticism:
 
 -
 
 ## I Disagree With
 
-Points I disagree with or doubt:
+What I disagree with or doubt:
 
 -
 

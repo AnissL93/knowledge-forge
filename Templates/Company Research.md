@@ -24,25 +24,25 @@ What does this company do?
 ## Positioning
 
 How does it describe itself?
-What value is it actually selling?
+What value is it really selling?
 
 ## Customers
 
 - Main customers:
-- ICP：
-- Buyer:
-- User:
+- ICP:
+- Buyers:
+- Users:
 
 ## Business model
 
-- Charging model:
+- How they charge:
 - Revenue sources:
 - Likely cost structure:
 
 ## Distribution
 
 - Acquisition channels:
-- Sales model:
+- Sales motion:
 - Partnerships:
 
 ## Differentiation

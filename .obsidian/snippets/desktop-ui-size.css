@@ -1,0 +1,13 @@
+/* larger interface and note text, close to the terminal size.
+   24px: IBM VGA looks slightly uneven at 1.5x, Cubic 11 (Chinese) is sharp. */
+body {
+  --font-ui-smaller: 20px;
+  --font-ui-small: 24px;
+  --font-ui-medium: 24px;
+  --font-ui-large: 28px;
+  --nav-item-size: 24px;
+  --tab-font-size: 24px;
+  --file-header-font-size: 24px;
+  /* note text; !important because Obsidian sets the base font size inline */
+  --font-text-size: 24px !important;
+}

@@ -11,27 +11,27 @@ created: {{date:YYYY-MM-DD}}
 
 ## Idea
 
-The idea:
+My idea:
 
 ## Why
 
-Why do I think this could hold?
+Why do I think this idea could hold?
 
 ## Evidence
 
 Papers supporting this idea:
 
-<!-- Link supporting evidence with [[Paper Note]]. -->
+<!-- Link supporting evidence with [[Paper Note Name]]. -->
 
 ## Counter Evidence
 
-Evidence against:
+Counter evidence:
 
-<!-- Link counter-evidence with [[Paper Note]]. -->
+<!-- Link counter evidence with [[Paper Note Name]]. -->
 
 ## Possible Experiment
 
-How to validate it?
+How do I verify it?
 
 ## Potential Contribution
 
@@ -39,10 +39,10 @@ If it holds, what is the contribution?
 
 ## Status
 
-- [ ] Seed
+- [ ] Idea
 - [ ] Worth exploring
 - [ ] Experimenting
-- [ ] Confirmed
+- [ ] Holds up
 - [ ] Dropped
 
 #idea

@@ -8,7 +8,7 @@ Core idea of the method:
 
 ## Formulation
 
-Definitions, notation, and formulas:
+Definitions, notation and formulation:
 
 ## Procedure
 
@@ -18,6 +18,6 @@ Definitions, notation, and formulas:
 
 ## Supporting Notes
 
-<!-- Link the method library with [[Method]] and sources with [[Paper Note]]. -->
+<!-- Link the method library with [[Method Name]] and sources with [[Paper Note Name]]. -->
 
 ## Draft

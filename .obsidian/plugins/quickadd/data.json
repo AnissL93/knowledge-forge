@@ -1,0 +1,657 @@
+{
+  "choices": [
+    {
+      "id": "64ce0d10-fadb-473f-9413-2e2cd2631e77",
+      "name": "Create Repo",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Create Repo",
+        "id": "6d4b4fec-63f5-42b1-aefc-c07bc045aef9",
+        "commands": [
+          {
+            "name": "create_github_repo",
+            "type": "UserScript",
+            "id": "f5de6f34-20b4-46b5-a5e7-d46248c5384b",
+            "path": "Scripts/create_github_repo.js",
+            "settings": {
+              "GitHub Token (optional)": "",
+              "Repo Notes Folder": "02_Sources/Repositories",
+              "Template Path": "Templates/GitHub Repo.md",
+              "External Folder": "90_External",
+              "Filename Format": "{owner} - {repo}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "3ed42b05-78d2-498a-91f9-eca52585a25b",
+      "name": "Create Article",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Create Article",
+        "id": "747958bc-06aa-46e5-8d53-9b2d57c51838",
+        "commands": [
+          {
+            "name": "create_article_note",
+            "type": "UserScript",
+            "id": "1d73991a-da60-40e6-a7fe-3e019e93a4ca",
+            "path": "Scripts/create_article_note.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "3f3d2ad5-5635-48ae-89c4-388d4d48b596",
+      "name": "Create Book",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Create Book",
+        "id": "19163c4b-42f8-403e-8b65-24cb67022da2",
+        "commands": [
+          {
+            "name": "create_book_note",
+            "type": "UserScript",
+            "id": "57c2be0c-4723-4f51-95af-59a2f96f8b73",
+            "path": "Scripts/create_book_note.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "ad333b3c-6338-4792-bd44-8e5cd6b7cf56",
+      "name": "Create Diagram",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Create Diagram",
+        "id": "3ef965cf-7017-4a19-a40f-37f838a6afe1",
+        "commands": [
+          {
+            "name": "create_diagram",
+            "type": "UserScript",
+            "id": "d0150a2a-b067-44d0-b545-4ed1615c05f2",
+            "path": "Scripts/create_diagram.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "ab9ba51a-fdc8-47f1-914a-e8f8599f3873",
+      "name": "Create Project",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Create Project",
+        "id": "59543580-349f-43e4-85b3-579fa43778ae",
+        "commands": [
+          {
+            "name": "create_project",
+            "type": "UserScript",
+            "id": "16af2863-864a-4e79-bb00-7a120a371a9c",
+            "path": "Scripts/create_project.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "062d2a4c-58a6-4e93-84b4-b20be940aefa",
+      "name": "Create Paper",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Create Paper",
+        "id": "3f838c11-e62d-43c3-88f1-c94b2950eacd",
+        "commands": [
+          {
+            "name": "create_paper_note",
+            "type": "UserScript",
+            "id": "85c5081e-58f4-49a8-b399-cc27c4429688",
+            "path": "Scripts/create_paper_note.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "13784ea1-ab4d-4787-b16d-4ca6da5ff79e",
+      "name": "Create Video",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Create Video",
+        "id": "41e6a7c8-f673-493e-bd3a-2956935974d4",
+        "commands": [
+          {
+            "name": "create_video_note",
+            "type": "UserScript",
+            "id": "faa0b449-3561-4c21-b1e3-298d5dd6c6f0",
+            "path": "Scripts/create_video_note.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecf71178-5257-4a29-9a54-5350330734d0",
+      "name": "Create Movie",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Create Movie",
+        "id": "e1dcd9f8-6b23-4ec7-a972-0b6a189f60e6",
+        "commands": [
+          {
+            "name": "create_movie",
+            "type": "UserScript",
+            "id": "6f6317a4-ae18-4076-942e-d371d360fbc0",
+            "path": "Scripts/create_movie.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "93ffee79-60af-48b6-b91b-794f9c530b1e",
+      "name": "Create Concept",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Concept.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value::title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "03_Concepts"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
+      "id": "a632d9a6-dcc8-40ea-81c3-944e5864f548",
+      "name": "Create Experiment",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Experiment.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "EXP - {{value::title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "05_Experiments"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
+      "id": "1a279fbe-9764-499b-aa35-3628f5b74b00",
+      "name": "Create Idea",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Idea.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "IDEA - {{value::title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "06_Ideas"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
+      "id": "a4911586-547e-4027-b5b9-ca966c7b140f",
+      "name": "Create HowTo",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/How-to.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value::title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "09_Resources/How-to"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
+      "id": "b896eb2f-ce85-4b91-8488-f2a5125e8150",
+      "name": "Create Blog",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Writing.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "BLOG - {{value::title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "07_Writing"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
+      "id": "7394e3fa-cfa8-4057-919d-35a31ada6f74",
+      "name": "Create Troubleshoot",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Troubleshooting.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value::title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "09_Resources/TroubleShoot"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
+      "id": "e870f8f8-ebab-4ea6-8455-66fef954b9f2",
+      "name": "Capture Troubleshoot",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "09_Resources/TroubleShoot/",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "# Problem Title\n\n## Problem\n\nWhat happened?\n\n-\n\n## Symptoms\n\n-\n\n## Cause\n\nWhat caused it?\n\n-\n\n## Solution\n\n### Step 1\n\n-\n\n### Step 2\n\n-\n\n## Commands / Configuration\n\n```bash\n# ..."
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": true,
+      "task": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "f793a742-0dc1-49b4-a9a7-38c1e1e48492",
+      "name": "Create People",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/People.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "04_Entities/People"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
+      "id": "1db9eb05-f5c6-4682-979b-acfb94c55a7e",
+      "name": "Create Company",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Company Research.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "04_Entities/Company"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
+      "id": "36aa23a2-354f-4f89-b3ac-a703e0cc40ae",
+      "name": "Insert Timestamp",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD ddd HH:mm}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "47cd5060-dce8-4639-b2ce-0e6807f4de89",
+      "name": "Create Entity",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Entity.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "04_Entities"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    }
+  ],
+  "inputPrompt": "single-line",
+  "persistInputPromptDrafts": true,
+  "useSelectionAsCaptureValue": true,
+  "devMode": false,
+  "templateFolderPath": "Templates",
+  "announceUpdates": "major",
+  "version": "2.12.3",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
+  "showCaptureNotification": true,
+  "showInputCancellationNotification": false,
+  "enableTemplatePropertyTypes": false,
+  "dateAliases": {
+    "t": "today",
+    "tm": "tomorrow",
+    "yd": "yesterday",
+    "nw": "next week",
+    "nm": "next month",
+    "ny": "next year",
+    "lw": "last week",
+    "lm": "last month",
+    "ly": "last year"
+  },
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\\text{new}}:=w_{ij}^{\\text{current}}+\\eta\\cdot\\delta_j\\cdot x_{ij}$$ on a separate line, but you can write \"($\\eta$ = learning rate, $\\delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ],
+        "autoSyncModels": false,
+        "modelSource": "modelsDev"
+      },
+      {
+        "name": "Gemini",
+        "endpoint": "https://generativelanguage.googleapis.com",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gemini-1.5-pro",
+            "maxTokens": 1000000
+          },
+          {
+            "name": "gemini-1.5-flash",
+            "maxTokens": 1000000
+          },
+          {
+            "name": "gemini-1.5-flash-8b",
+            "maxTokens": 1000000
+          }
+        ],
+        "autoSyncModels": false,
+        "modelSource": "modelsDev"
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "consolidateFileExistsBehavior": true,
+    "repairTemplateFileExistsBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true,
+    "backfillFileOpeningDefaults": true,
+    "setProviderModelDiscoveryMode": true,
+    "migrateProviderApiKeysToSecretStorage": true
+  }
+}

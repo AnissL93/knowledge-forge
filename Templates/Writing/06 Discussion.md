@@ -6,7 +6,7 @@ What do the results mean?
 
 ## Connection to Prior Work
 
-Where they agree or conflict with existing literature:
+Where it agrees with or contradicts prior work:
 
 ## Limitations
 
@@ -16,6 +16,6 @@ Which conclusions cannot be drawn yet?
 
 ## Future Work
 
-<!-- Link follow-up ideas with [[IDEA - Name]]. -->
+<!-- Link follow-up research ideas with [[IDEA - Idea Name]]. -->
 
 ## Draft

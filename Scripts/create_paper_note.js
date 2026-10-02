@@ -6,7 +6,7 @@ module.exports = {
     options: {
       "Highlights Folder": { type: "text", defaultValue: "02_Sources/Papers/Highlights" },
       "Notes Folder": { type: "text", defaultValue: "02_Sources/Papers/Notes" },
-      "Template Path": { type: "text", defaultValue: "Templates/Paper.md" },
+      "Template Path": { type: "text", defaultValue: "Templates/Paper_detailed.md" },
       "Filename Format": { type: "text", defaultValue: "{author} {year} - {title}" }
     }
   }
@@ -16,7 +16,7 @@ async function createPaperNote(params, settings) {
   const { app, quickAddApi, obsidian } = params;
   const H = String(settings["Highlights Folder"] || "02_Sources/Papers/Highlights").trim();
   const N = String(settings["Notes Folder"] || "02_Sources/Papers/Notes").trim();
-  const T = String(settings["Template Path"] || "Templates/Paper.md").trim();
+  const T = String(settings["Template Path"] || "Templates/Paper_detailed.md").trim();
   const F = String(settings["Filename Format"] || "{author} {year} - {title}").trim();
 
   const safe = s => String(s ?? "").trim().replace(/[\\/:*?"<>|]/g, "-").replace(/\s+/g, " ");

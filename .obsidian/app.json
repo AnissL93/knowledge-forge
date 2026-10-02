@@ -1,0 +1,11 @@
+{
+  "attachmentFolderPath": "Attachments/Image",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Inbox",
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "strictLineBreaks": false,
+  "defaultViewMode": "source"
+}

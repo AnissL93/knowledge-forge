@@ -34,7 +34,7 @@ Supervisor's suggestions:
 
 ## Decisions
 
-Decisions made:
+Final decisions:
 
 ## Next Actions
 

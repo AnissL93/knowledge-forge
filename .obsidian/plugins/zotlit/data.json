@@ -1,0 +1,75 @@
+{
+  "__VERSION__": 9,
+  "release.previous-version": "2.1.4",
+  "note.literature-folder": "02_Sources/Papers/Highlights",
+  "template.folder": "02_Sources/Papers",
+  "attachment.folder-path": "Attachments/Paper",
+  "note.frontmatter-fields": [
+    {
+      "key": "title",
+      "expr": "zt.title",
+      "merge": "replace",
+      "language": "liquid"
+    },
+    {
+      "key": "related",
+      "expr": "zt.relatedItems | note_links",
+      "merge": "replace",
+      "language": "liquid"
+    },
+    {
+      "key": "collections",
+      "expr": "zt.collections | collection_paths",
+      "merge": "replace",
+      "language": "liquid"
+    },
+    {
+      "key": "citekey",
+      "expr": "zt.citationKey",
+      "merge": "replace",
+      "language": "liquid"
+    },
+    {
+      "key": "type",
+      "expr": "\"paper-highlights\"",
+      "merge": "replace",
+      "language": "liquid"
+    },
+    {
+      "key": "authors",
+      "expr": "zt.creators | map: \"fullName\"",
+      "merge": "replace",
+      "language": "liquid"
+    },
+    {
+      "key": "year",
+      "expr": "zt.date | date: \"%Y\"",
+      "merge": "replace",
+      "language": "liquid"
+    },
+    {
+      "key": "doi",
+      "expr": "zt.DOI",
+      "merge": "replace",
+      "language": "liquid"
+    },
+    {
+      "key": "venue",
+      "expr": "zt.publicationTitle | default: zt.proceedingsTitle",
+      "merge": "replace",
+      "language": "liquid"
+    },
+    {
+      "key": "item_type",
+      "expr": "zt.itemType",
+      "merge": "replace",
+      "language": "liquid"
+    },
+    {
+      "key": "tags",
+      "expr": "zt.tags | obsidian_tag: \"zotero/\"",
+      "merge": "replace",
+      "language": "liquid"
+    }
+  ]
+}

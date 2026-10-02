@@ -16,25 +16,28 @@ Raw material (papers, books, videos, web pages, GitHub repos, movies, market res
 02_Sources/        What other people said (raw material → my source note)
   Papers/          Highlights/ (ZotLit-managed) + Notes/ (my paper notes)
   Books/           Highlights/ (KOReader-managed) + Notes/
-  Articles/        Web article notes (raw clip lives in 09_Material/Clippings)
+  Articles/        Web article notes (raw clip lives in 09_Resources/Clippings)
   Videos/          Video notes (Media Extended)
   Repositories/    GitHub repo notes
   Movies/          Movie notes (TMDB)
   Podcasts/  Reports/
 03_Concepts/       What I already know (one concept per note)
-04_Methods/        Reusable methods / algorithms / procedures
+04_Entities/       People / Company / Products / Things (Entity, People templates)
 05_Experiments/    What I actually tried (EXP001 - ...)
 06_Ideas/          New hypotheses
-07_Writing/        Papers / reports / articles
+07_Writing/        Papers / reports / articles; Blog/; Blog/
 08_Meetings/       Supervisor / cofounder / customer
-09_Material/       Raw material, not notes (Clippings/ = Web Clipper output)
-10_Business/       Reusable business knowledge: Company / Market / Strategy (see its README)
+09_Resources/      Clippings/ (Web Clipper output), Tools/, How-to/, TroubleShoot/, Collection/
+10_Business/       Reusable business knowledge: Market / Strategy (see its README)
 11_Daily/          Daily note = time log, archived as YYYY/MM
+12_Admin/          Admin / paperwork
+13_Finance/        Accounting / Investing / Researching
 90_External/       Symlinks to external git repos; readable by Obsidian, git-ignored
 99_Archive/        Finished projects, rejected directions
 Attachments/       Diagrams/{Mermaid,Excalidraw}  Image/  Paper/  Export/
 Scripts/           QuickAdd user scripts
 Templates/         Note templates + Mermaid/ diagram snippets + Writing/ paper sections
+.obsidian/         Core + plugin settings (data.json only); plugins/knowledge-forge-ai = optional submodule
 ```
 
 ### Where does a note go?
@@ -45,11 +48,10 @@ Templates/         Note templates + Mermaid/ diagram snippets + Writing/ paper s
 | What am I pushing forward? | `01_Projects` |
 | What did someone else (paper/book/video/page) say? | `02_Sources/*` |
 | What do I know about this field? | `03_Concepts` |
-| What reusable method is this? | `04_Methods` |
 | What did I try? | `05_Experiments` |
 | What new hypothesis do I have? | `06_Ideas` |
 | What am I producing? | `07_Writing` |
-| This company / this market / long-term strategy? | `10_Business/{Company,Market,Strategy}` |
+| This company / this market / long-term strategy? | `04_Entities/Company`, `10_Business/{Market,Strategy}` |
 | What happened today? | `11_Daily` |
 
 Rule: the *thing you are doing* goes in `01_Projects`; the reusable knowledge it produces settles into `02–10`. The example notes in each folder show this with one sample project, `LLM Reasoning Study`.
@@ -79,8 +81,20 @@ Minimal set. Tasks queries tasks; Dataview queries note metadata. Keep them sepa
 | Web pages | **Obsidian Web Clipper** (browser extension) | for articles |
 | Diagrams | **Mermaid Next**, optional **Excalidraw** | optional |
 | Pomodoro | any minimal timer (PomoBar) | optional |
+| AI edit / note creation, local-first (experimental) | **[Knowledge Forge AI](https://github.com/AnissL93/knowledge-forge-ai)** (git submodule) | optional |
 
 Core plugins: Backlinks, Daily Notes, Templates, Properties, Quick Switcher, Bases.
+
+`.obsidian/` ships the core and plugin settings (`data.json`) but not the plugin code: install each plugin from Community plugins and the settings are picked up.
+
+**Knowledge Forge AI (optional, experimental)** lives at `.obsidian/plugins/knowledge-forge-ai` as a git submodule, not fetched by a plain clone:
+
+```bash
+git submodule update --init .obsidian/plugins/knowledge-forge-ai
+cd .obsidian/plugins/knowledge-forge-ai && npm ci && npm run build
+```
+
+Then enable it in Community plugins. Defaults to a local Ollama endpoint (`qwen3:8b`).
 
 ### Plugin settings
 
@@ -127,7 +141,7 @@ Core plugins: Backlinks, Daily Notes, Templates, Properties, Quick Switcher, Bas
 - Timestamp / screenshot insert into the active note. `Create Video Note` writes `mx-uid` so "Open note" from the player jumps back to the right note.
 
 **Obsidian Web Clipper** (browser) — in your Article template:
-- Note location: `09_Material/Clippings`
+- Note location: `09_Resources/Clippings`
 - Note name: `{{title}}`
 - Keep `url`, `author`, `published`, `site` properties; `Create Article Note` reads them.
 
@@ -147,7 +161,7 @@ Core plugins: Backlinks, Daily Notes, Templates, Properties, Quick Switcher, Bas
 
 QuickAdd → Add Choice `Capture Inbox`, type **Capture**, file `00_Inbox/Inbox.md`, append to end. Bind `Ctrl+Alt+C`.
 
-Rule: **never classify while capturing.** Concept / Idea / Method is decided later.
+Rule: **never classify while capturing.** Concept / Idea is decided later.
 
 ### Step 2: register the QuickAdd scripts
 
@@ -167,7 +181,7 @@ One Choice per script: type **Macro** → Macro Builder → Add → **User Scrip
 
 Scripts with a `settings` block (paper, github, movie) expose their folders/tokens in QuickAdd → the Choice's gear icon.
 
-Template Choices (type **Template**): Create Idea → `Templates/Idea.md` into `06_Ideas`; Create Experiment → `Templates/Experiment.md` into `05_Experiments`; likewise Concept, Method, Meeting, Company Research, Market Research.
+Template Choices (type **Template**): Create Idea → `Templates/Idea.md` into `06_Ideas`; Create Experiment → `Templates/Experiment.md` into `05_Experiments`; likewise Concept, Meeting, Company Research (→ `04_Entities/Company`), Market Research.
 
 ### Step 3: hotkeys
 
@@ -221,7 +235,7 @@ Concepts / Ideas
 **Web pages**
 
 ```text
-Web Clipper → 09_Material/Clippings/<title>.md → Create Article Note → 02_Sources/Articles/
+Web Clipper → 09_Resources/Clippings/<title>.md → Create Article Note → 02_Sources/Articles/
 ```
 or run Create Article Note directly from a URL (it clips first, then creates the note).
 
@@ -262,8 +276,8 @@ How much to write per paper: A-tier (core) — full note; B-tier (related) — c
                     [[Research Question]]
                            ↑
 [[Paper A]] → [[Concept]] ← [[Paper B]]
-     ↓            ↓
- [[Method]]     [[Idea]]
+                  ↓
+              [[Idea]]
                    ↓
               [[Experiment]]
                    ↓
